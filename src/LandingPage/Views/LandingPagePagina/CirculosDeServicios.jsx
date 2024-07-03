@@ -7,9 +7,7 @@
  * @constructor
  */
 import {
-    IconoAtencionMedica, IconoSaludYBelleza, IconoAlimentosYBebidas,
-    IconoDiversionYEntretenimiento, IconoServiciosProfesionales, IconoServiciosVehiculares,
-    IconoMantenimientoYConstruccion, IconoEducacionYCapacitacion, IconoComerciosMayoreoYMenudeo
+    IconoAtencionMedica
 } from "../../../assets/LandingPage/Index.js";
 import {Box, Grid, ImageListItem, ImageListItemBar, useTheme} from "@mui/material";
 import {TypographySmallText} from "../../Theme/index.js";
