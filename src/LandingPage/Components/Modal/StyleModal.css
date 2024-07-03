@@ -1,0 +1,45 @@
+
+
+.Modal-Style-InicioCookiesModal .modal-dialog {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    margin: 0;
+}
+
+.Modal-Style-InicioCookiesModal .modal-content {
+    color: white;
+    background-color: #72b7f4;
+    border-radius: 0;
+}
+
+@media (min-width: 576px) {
+    .Modal-Style-InicioCookiesModal .modal-dialog {
+        max-width: 100vw;
+    }
+}
+
+/**
+ Todos los modales no tendrán bordes
+ */
+.Modal-Style-ModalLayout .modal-header,
+.Modal-Style-ModalLayout .modal-footer,
+.Modal-Style-ModalLayout .modal-content{
+    border: none;
+}
+
+
+/**
+ * Todos los modales en el header no tendrán padding-bottom,
+ * para que el contenido se vea más pegado al header
+ */
+.Modal-Style-ModalLayout .modal-header {
+    padding-bottom: 0;
+}
+
+.Modal-Style-ModalLayout .modal-footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}

@@ -1,0 +1,13 @@
+
+/*
+Esto hace que el logo de PoweredBy de Mapbox cambie de color al pasar el mouse por encima.
+*/
+
+.Img-Color-PoweredBy {
+    filter: none;
+    transition: filter 0.3s ease-in-out;
+}
+
+.Img-Color-PoweredBy:hover {
+    filter: brightness(0) invert(45%) sepia(94%) saturate(600%) hue-rotate(2deg) brightness(97%) contrast(108%);
+}
