@@ -18,7 +18,6 @@ export const LandingPageRuta = () => {
             <LandingPageLayout>
                 <Routes>
                     <Route path='/' element={<LandingPagePagina/>}/>
-                    <Route path='*' element={<Navigate to='/'/>}/>
                 </Routes>
             </LandingPageLayout>
 
